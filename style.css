@@ -1,0 +1,130 @@
+* {
+    background-color: black;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    margin: 10px auto;
+    height: 50px;
+    width: 70%;
+    border-bottom: solid 1px;
+    border-color: white;
+    display: flex;
+    text-align: right;
+    
+}
+
+.headerlogo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+#headerlogo {
+    width: 120px;
+    min-height: 30px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    background-color: black;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    width: 100%;
+    background-color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: black;
+}
+
+.msg {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    min-height: 300px;
+    height: 650px;
+    font-size: 10vw;
+    background-color: black;
+}
+
+.msg > h1 {
+    color: white;
+    background-color: black;
+}
+.toppage {
+    height: 750px;
+    background-color: black;
+}
+
+.body {
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 15em;
+    width: 80em;
+    border-right: solid 20px #6448ff;
+    border-bottom: solid 20px #6448ff;
+}
+
+h2, p {
+    background-color: white;
+}
+
+.abouttitle {
+    background-color: white;
+    max-width: 1300px;
+    min-width: 1300px;
+}
+
+.abouttext {
+    background-color: white;
+    height: 90em;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.abouttext > p {
+    font-size: 25px;
+}
+
+footer {
+    height: 5em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+footer > p {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
