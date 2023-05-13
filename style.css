@@ -1,7 +1,8 @@
 * {
     margin: 0 auto;
-    font-family: 'Monument Extended', sans-serif;    
-    border: solid yellow;                                       
+    font-family: 'Monument Extended', sans-serif;   
+    border: solid yellow; 
+                                
 }
 .toppage {
     display: flex;
@@ -14,10 +15,13 @@ nav {
     height: 6em;
     background: rgb(0,91,255);
     display: flex;
+    padding: 5px;
 }
 
 nav > img {
     max-width: 6em;
+    background-color: white;
+    border-radius: 10px;
 }
 .teams {
     display: flex;
@@ -46,4 +50,8 @@ nav > img {
 .title {
     font-size: 2vw;
     margin: 10px auto;
+}
+
+#round {
+    border-radius: 150px;
 }
