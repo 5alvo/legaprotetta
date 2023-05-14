@@ -43,6 +43,14 @@ nav > img {
     .teamname > img {
          width: 100px;
     }
+
+    .teamname > p {
+        width: 150px;
+    }
+
+    .teamname {
+        width: 50px;
+    }
 }
 
 .intro {
@@ -57,6 +65,7 @@ nav > img {
 
 .title {
     font-size: 1,5vw;
+    text-align: center;
     margin: 10px auto;
     color: rgb(23, 29, 141);
 }
@@ -72,6 +81,11 @@ nav > img {
     align-items: center;
     color: rgb(23, 29, 141);
     min-width: 210px;
+}
+
+.teamname > p {
+text-align: center;
+
 }
 
 .title {
