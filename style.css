@@ -44,6 +44,7 @@ nav > img {
     flex-direction: column;
     border: solid green;
     justify-content: center;
+    width: 100%;
 }
 
 .title {
