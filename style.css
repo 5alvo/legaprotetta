@@ -34,8 +34,8 @@ nav > img {
 .teamname > img {
     height: auto; 
     width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+    max-width: 290px; 
+    max-height: 290px;
     margin: 10px;
 }
 
@@ -45,6 +45,8 @@ nav > img {
     border: solid green;
     justify-content: center;
     width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 91%, rgba(0,91,255,1) 100%);
 }
 
 .title {
@@ -64,4 +66,10 @@ nav > img {
     align-items: center;
     color: rgb(23, 29, 141);
     min-width: 210px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
