@@ -1,19 +1,17 @@
 * {
     margin: 0 auto;
-    font-family: 'Monument Extended', sans-serif;   
-    border: solid yellow; 
-                                
+    font-family: 'Monument Extended', sans-serif;                                   
 }
 .toppage {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 nav {
-    width: 100%;
+    min-width: 100%;
     height: 6em;
     background: rgb(0,91,255);
     display: flex;
-    padding: 5px;
+    padding: 5px 0;
 }
 
 nav > img {
@@ -23,7 +21,7 @@ nav > img {
 }
 .teams {
     display: flex;
-    border: solid red;
+    gap: 20px;
     height: 12em;
     flex: 1;
     flex-wrap: wrap;
@@ -55,10 +53,9 @@ nav > img {
 
 .intro {
     display: flex;
-    flex-direction: column;
-    border: solid green;
-    justify-content: center;
     width: 100%;
+    flex-direction: column;
+    justify-content: center;
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 91%, rgba(0,91,255,1) 100%);
 }
@@ -68,6 +65,10 @@ nav > img {
     text-align: center;
     margin: 10px auto;
     color: rgb(23, 29, 141);
+}
+
+.title:hover {
+    color: aqua;
 }
 
 #round {
@@ -93,3 +94,4 @@ text-align: center;
     flex-direction: column;
     align-items: center;
 }
+
