@@ -8,8 +8,8 @@
 }
 nav {
     min-width: 100%;
-    height: 6em;
-    background: rgb(0,91,255);
+    height: 7em;
+    background: rgb(23,29,141);
     display: flex;
     padding: 5px 0;
 }
@@ -18,6 +18,7 @@ nav > img {
     max-width: 6em;
     background-color: white;
     border-radius: 10px;
+    margin: 6px auto;
 }
 .teams {
     display: flex;
@@ -39,15 +40,15 @@ nav > img {
 
 @media screen and (max-width: 520px) {
     .teamname > img {
-         width: 100px;
+         width: 80px;
     }
 
     .teamname > p {
-        width: 150px;
+        width: 178px;
     }
-
     .teamname {
-        width: 50px;
+        min-width: 174px;
+
     }
 }
 
@@ -56,8 +57,8 @@ nav > img {
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 91%, rgba(0,91,255,1) 100%);
+    margin-top: 30px;
+    
 }
 
 .title {
@@ -81,7 +82,6 @@ nav > img {
     justify-content: center;
     align-items: center;
     color: rgb(23, 29, 141);
-    min-width: 210px;
 }
 
 .teamname > p {
