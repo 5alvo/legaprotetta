@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    font-family: 'Monument Extended', sans-serif;                                   
+    font-family: 'Monument Extended', sans-serif;                                  
 }
 .toppage {
     display: flex;
@@ -50,6 +50,11 @@ nav > img {
         min-width: 174px;
 
     }
+
+    #imgs {
+        width: 80px;
+        height: auto;
+    }
 }
 
 .intro {
@@ -69,7 +74,7 @@ nav > img {
 }
 
 .title:hover {
-    color: aqua;
+    color: rgb(0,135,255);
 }
 
 #round {
@@ -97,11 +102,11 @@ text-align: center;
 
 .history {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     margin: 100px auto;
-    border: solid black 2px;
-    width: 70%;
-    height: 350px;
+    border: solid lightgray 1px;
+    width: 934.28px;
+    height: 300px;
 }
 
 h3 {
@@ -114,6 +119,49 @@ h3 {
 
 
 #imgs {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: auto;
+}
+
+.text > h3 {
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+.text {
+    padding: 35px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 970px) { 
+    .text { display: none; } 
+
+    .history {width: fit-content;}
+} 
+
+
+.text > p {
+    margin-bottom: 20px;
+}
+.text > h6 {
+    font-size: 16px;
+    color: rgb(32,71,227);
+}
+
+.text > h6:hover{
+    color: rgb(0,135,255);
+}
+
+footer {
+    height: 6em;
+    background-color: rgb(23,29,141);
+}
+
+.f1 {
+    height: 2em;
+    background-color: rgb(0,232,238);
 }
