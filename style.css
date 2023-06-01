@@ -14,8 +14,11 @@ nav {
     padding: 5px 0;
 }
 
+a {
+  text-decoration: none;
+}
 .nav-title > img {
-    max-width: 10em;
+    max-width: 12em;
     background-color: white;
     border-radius: 10px;
     margin: 6px auto;
@@ -259,3 +262,18 @@ footer {
       overflow-y: auto;
     }
   }
+ /*Shine img effect*/
+  .teamname > img {
+    -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
+}
+.teamname > img:hover {
+    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
+}
